@@ -63,6 +63,7 @@
                         font-weight: bold;
                         color: #464646;
                         line-height: 100px;
+                        cursor: pointer;
 
                         &:hover{
                             color: #0282f9;
