@@ -6,16 +6,7 @@
             </div>
             <nav>
                 <ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    <li v-for="nav in nav" :key="nav">{{nav.text}}</li>
                 </ul>
             </nav>
         </div>
@@ -23,6 +14,11 @@
 </template>
 
 <script>
+export default {
+    props: {
+        nav: Array,
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -59,7 +55,6 @@
                     li{
                         margin: 0 10px;
                         font-size: 12px;
-                        font-family: Arial, Helvetica, sans-serif;
                         font-weight: bold;
                         color: #464646;
                         line-height: 100px;

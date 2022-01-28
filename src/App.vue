@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <header-box></header-box>
-    <main-box></main-box>
-    <footer-box></footer-box>
+    <header-box :nav="nav"/>
+    <main-box/>
+    <footer-box/>
   </div>
 </template>
 
@@ -17,11 +17,48 @@ export default {
     HeaderBox,
     MainBox,
     FooterBox
+  },
+  data() {
+    return {
+      nav: [
+        {
+          text: 'CHARACTERS'
+          },
+        {
+          text: 'COMICS'
+          },
+        {
+          text: 'MOVIES'
+          },
+        {
+          text: 'TV'
+          },
+        {
+          text: 'GAMES'
+          },
+        {
+          text: 'COLLECTIBLES'
+          },
+        {
+          text: 'VIDEOS'
+          },
+        {
+          text: 'FANS'
+          },
+        {
+          text: 'NEWS'
+          },
+        {
+          text: 'SHOP'
+          },
+      ]
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-  @import './style/main.scss'
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import './style/main.scss';
 
 </style>

@@ -31,7 +31,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
 
             .button {

@@ -43,7 +43,6 @@
 
             div {
                 color: #fff;
-                font-family: Arial, Helvetica, sans-serif;
                 font-size: 13px;
                 display: flex;
                 align-items: center;

@@ -70,7 +70,6 @@
             .text {
                 height: 100%;
                 display: flex;
-                font-family: Arial, Helvetica, sans-serif;
 
                 .column {
                     

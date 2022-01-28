@@ -22,7 +22,6 @@
             line-height: 150px;
             font-weight: bolder;
             font-size: 30px;
-            font-family: Arial, Helvetica, sans-serif;
 
         }
     }
