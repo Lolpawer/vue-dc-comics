@@ -75,6 +75,7 @@
                     
                     ul {
                         list-style: none;
+                        padding: 0 10px;
 
                         li {
                             color:#959595;
